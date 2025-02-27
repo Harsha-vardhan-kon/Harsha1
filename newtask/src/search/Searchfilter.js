@@ -13,7 +13,7 @@ const users = [
 ]
 
 
-  function Seacrhfilter() {
+    function Seacrhfilter() {
     const [searchItem, setSearchItem] = useState('')
     const [filteredUsers, setFilteredUsers] = useState(users)
   
